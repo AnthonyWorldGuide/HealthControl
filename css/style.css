@@ -119,6 +119,14 @@ img {
 	justify-content: space-between;
 }
 
+.cnt-button{
+	color: #FFBE00;
+}
+
+
+
+
+
 .burger {
 	--offset-horizontal: 11px;
 	--offset-vertical: 14px;
@@ -178,6 +186,39 @@ img {
 	font-size: 60px;
 	line-height: 74px;
 }
+
+.contacts {
+	padding-top: 150px;
+	padding-left: 300px;
+	padding-right: 700px;
+	padding-bottom: 400px;
+	min-height: 811px;
+	
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+
+.contacts-content {
+	max-width: 616px;
+	color: #fff;
+}
+
+.contacts-subtitle {
+	display: inline-block;
+	margin-bottom: 22px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.contacts-title {
+	margin: 0;
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 74px;
+}
+
 
 .hero-descr {
 	margin: 0;

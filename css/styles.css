@@ -6,9 +6,11 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #00B8A9;
+  color: #fff;
+
+
 }
 
-input::-webkit-input-placeholder { color: white; }
 
 .user {
   width: 100px;
@@ -27,7 +29,7 @@ input::-webkit-input-placeholder { color: white; }
   color: #fff;
 }
 .form-box{
-  width: 700px;
+  width: 500px;
   padding: 50px;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -39,29 +41,35 @@ input::-webkit-input-placeholder { color: white; }
   transform: translateY(-50%);
   background: #00B8A9;
   text-align: center;
-}
+   color: #fff;
+margin-right: 50px;
+ }
 .form-box h1{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 28px;
+
 }
 .form-box input[type = "text"],.form-box input[type = "password"]{
   border:0;
   background: none;
+  display: block;
   margin: 20px auto;
-  text-align: center;
-  font-size: 30px;
+  font-size: 16px;
   border: none;
   border-bottom: 2px solid #fff;
   padding: 14px 15px;
-  width: 400px;
+  width: 200px;
   outline: none;
   transition: 0.25s;
+
+
 }
 .form-box input[type = "text"]:focus,.form-box input[type = "password"]:focus{
   width: 250px;
   color: #fff;
   border-color: #FFDE7D;
+
 }
 .form-box input[type = "submit"]{
   border:0;
@@ -69,15 +77,13 @@ input::-webkit-input-placeholder { color: white; }
   display: block;
   margin: 20px auto;
   text-align: center;
-  color:  #fff;
-  border: 3px solid #FFDE7D;
-  width: 300px;
-  height: 60px;
+  border: 2px solid #FFDE7D;
+  width: 230px;
+  height: 30px;
   outline: none;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
-  font-size: 30px;
 }
 .form-box input[type = "submit"]:hover{
   background: #FFDE7D;
@@ -90,6 +96,10 @@ input::-webkit-input-placeholder { color: white; }
   }
 }
 @media only screen and (max-width: 1025px) {
+.header.header-container{
+  display: none;
+}
+
   .bg__img {
     display: none;
   }

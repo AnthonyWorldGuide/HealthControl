@@ -6,10 +6,9 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #00B8A9;
-
-
 }
 
+input::-webkit-input-placeholder { color: white; }
 
 .user {
   width: 100px;
@@ -28,7 +27,7 @@ body{
   color: #fff;
 }
 .form-box{
-  width: 500px;
+  width: 700px;
   padding: 50px;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -49,13 +48,13 @@ body{
 .form-box input[type = "text"],.form-box input[type = "password"]{
   border:0;
   background: none;
-  display: block;
   margin: 20px auto;
-  font-size: 16px;
+  text-align: center;
+  font-size: 30px;
   border: none;
   border-bottom: 2px solid #fff;
   padding: 14px 15px;
-  width: 200px;
+  width: 400px;
   outline: none;
   transition: 0.25s;
 }
@@ -70,13 +69,15 @@ body{
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #FFDE7D;
-  width: 230px;
-  height: 30px;
+  color:  #fff;
+  border: 3px solid #FFDE7D;
+  width: 300px;
+  height: 60px;
   outline: none;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
+  font-size: 30px;
 }
 .form-box input[type = "submit"]:hover{
   background: #FFDE7D;

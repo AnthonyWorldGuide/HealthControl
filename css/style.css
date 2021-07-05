@@ -436,6 +436,8 @@ img {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+
+
 	.services-subtitle {
 		max-width: none;
 	}
@@ -485,6 +487,12 @@ img {
 	.footer-mail {
 		font-size: 20px;
 	}
+
+	@media (max-width: 320px)
+.footer-mail {
+    font-size: 10px;
+	  width:50%;
+}
 
 	.logo {
 		width: 65%;
